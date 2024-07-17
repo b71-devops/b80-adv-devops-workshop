@@ -1,0 +1,13 @@
+[jenkins-master]
+10.1.1.217
+
+[jenkins-master:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/b80.pem
+
+[jenkins-slave]
+10.1.1.173
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/b80.pem
